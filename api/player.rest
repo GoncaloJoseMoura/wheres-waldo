@@ -1,0 +1,17 @@
+GET http://localhost:3000/leaderboard
+
+###
+
+POST http://localhost:3000/save
+Content-Type: application/json
+
+{
+    "name": "newplayer",
+    "time": 1000,
+    "timetext": "00.01.00ms",
+    "board": "marvel"
+}
+
+###
+
+GET http://localhost:3000/leaderboard/multiversus
